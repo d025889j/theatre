@@ -8,6 +8,7 @@ body{
     background-color: whitesmoke;
     border: 2px solid black;
     margin:10px;
+    padding-right:5px;
 }
 form{
     background-color: whitesmoke;
@@ -23,7 +24,7 @@ label{
 input{
     background-color: whitesmoke;
     display: flex;
-    width: 90%;
+    width: 100%;
 }
 button{
     background-color: rgb(206, 206, 206);
