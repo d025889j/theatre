@@ -1,0 +1,126 @@
+*{
+    background-color: rgb(66, 82, 112);
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    max-width: 500px;
+}
+body{
+    width: auto;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin:10px;
+}
+form{
+    background-color: whitesmoke;
+    margin:0 10px 0 10px;
+}
+p{
+    background-color: whitesmoke;
+    margin:5px 0 5px 0;
+}
+label{
+    background-color: whitesmoke;
+}
+input{
+    background-color: whitesmoke;
+    display: flex;
+    width: 100%;
+}
+button{
+    background-color: rgb(206, 206, 206);
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+select{
+    background-color: rgb(206, 206, 206);
+}
+h1{
+    text-align: center;
+    font-size: 1.7em;
+    background-color: rgb(206, 206, 206);
+    margin:0 0 10px 0;
+    border-bottom: black solid 1px;
+}
+#shows{
+    display:flex;
+}
+option{
+    background-color: rgb(206, 206, 206);
+}
+#output{
+    min-height: 152px;
+    height:auto;
+    margin:0 10px 10px 10px;
+    border: 1px solid black;
+    width: auto;
+}
+#sumlabel{
+    padding:0 15px 0 15px;
+    margin:0;
+    width: auto;
+    font-weight: bold;
+}
+#seats{
+    width:118px;
+}
+#showPrice{
+    height:20px;
+    width:120px;
+    padding:0;
+    margin:0;
+    border: 1px solid black;
+}
+#deliveryChoice{
+    background-color: rgb(206, 206, 206) ;
+    width:250px;
+    padding: 0;
+    margin:0;
+}
+legend{
+    background-color: whitesmoke;
+    margin:0 15px 0 0;
+    padding:0 0 2px 0;
+    font-weight: bold;
+}
+#email{
+    width:10px;
+}
+#post{
+    width:10px;
+}
+#boxOffice{
+    width:10px;
+}
+fieldset{
+    border:0;
+    padding:0;
+    background-color: whitesmoke;
+    width:150px;
+}
+.deliveryOptions{
+    display:flex;
+    width:100px;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+#deliveryCost{
+    height:20px;
+    width:120px;
+    padding:0;
+    margin:0;
+    border: 1px solid black;
+}
+.boldLabel{
+    font-weight: bold;
+}
+#backButton {
+    background-color: rgb(206, 206, 206);
+    padding-left: 10px;
+    margin: 10px 0 5px 15px;
+}
+#backButton a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(206, 206, 206);
+}
